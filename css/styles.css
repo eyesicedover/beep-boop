@@ -1,9 +1,25 @@
-h2, #output {
-  text-align: center;
+body{
+  background-color: black;
+  font-family: monospace;
+  color: green;
 }
 
-#output, label {
-  font-size: 2em;
+input[type=number] {
+  border: solid 2px green;
+  border-radius: 4px;
+  background-color: black;
+  color: green;
+}
+input[type=number]:focus {
+  box-shadow: none;
+  border: solid 2px green;
+  border-radius: 4px;
+  background-color: black;
+  color: green;
+}
+
+#output, label, p {
+  font-size: 1.5em;
 }
 
 .jumbotron {
@@ -13,11 +29,14 @@ h2, #output {
   background-repeat: no-repeat;
   background-position: center center;
   color: green;
-  font-family: monospace;
 }
 
-body{
+.btn {
   background-color: black;
-  font-family: monospace;
   color: green;
+  border: solid 1px green;
+}
+
+#output {
+  text-align: center;
 }

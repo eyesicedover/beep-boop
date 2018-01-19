@@ -9,11 +9,11 @@ function compSpeak(numInt) {
     var stringHolder = numArray[h];
     var intHolder = parseInt(numArray[h]);
     if (((intHolder % 3) === 0) && (intHolder != 0)) {
-      result[h] = "I'm sorry, Dave. I'm afraid I can't do that.";
+      result[h] = "I'm sorry, Dave. I'm afraid I can't do that";
     } else if (stringHolder.includes("1") === true) {
-      result[h] = "Boop!";
+      result[h] = "BOOP!";
     } else if (stringHolder.includes("0") === true) {
-      result[h] = "Beep!";
+      result[h] = "BEEP!";
     } else {
       result[h] = numArray[h];
     }
@@ -26,7 +26,7 @@ $(document).ready(function() {
     event.preventDefault();
     var userNumber = $("input#userNumber").val();
     var numInt = parseInt(userNumber);
-    
+
     $("#output").text(compSpeak(numInt));
   });
 });
