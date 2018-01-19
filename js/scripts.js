@@ -1,46 +1,33 @@
-// function checker(num) {
-//   for (h = 0; h < num.length; h++) {
-//     if (num[h] === 1) {
-//       return "Boop!";
-//     } else if (num[h] === 0) {
-//       return "Beep!";
-//     } else {
-//       return h;
-//     }
-//   }
-// }
-
-// function mapping(x) {
-//   numArray.map(function(x))
-// }
+function compSpeak(numInt) {
+  var result = [];
+  var numArray = [];
+  for (i = 0; i <=numInt; i++) {
+    var numString = i.toString();
+    numArray.push(numString);
+  }
+  for (h = 0; h < numArray.length; h++) {
+    var stringHolder = numArray[h];
+    var intHolder = parseInt(numArray[h]);
+    if (((intHolder % 3) === 0) && (intHolder != 0)) {
+      result[h] = "I'm sorry, Dave. I'm afraid I can't do that.";
+    } else if (stringHolder.includes("1") === true) {
+      result[h] = "Boop!";
+    } else if (stringHolder.includes("0") === true) {
+      result[h] = "Beep!";
+    } else {
+      result[h] = numArray[h];
+    }
+  }
+  return result.join(" ... ");
+}
 
 $(document).ready(function() {
   $("#numberForm").submit(function(event) {
     event.preventDefault();
-    var number = $("input#userNumber").val();
-    var numInt = parseInt(number);
-    var numArray = [];
-    var result = [];
+    var userNumber = $("input#userNumber").val();
+    var numInt = parseInt(userNumber);
 
-    for (i = 0; i <=numInt; i++) {
-      var numString = i.toString();
-      numArray.push(numString);
-    }
-    debugger;
-
-    for (h = 0; h < numArray.length; h++) {
-      var stringHolder = numArray[h];
-      if (stringHolder.includes("1") === true) {
-        result[h] = "Boop!";
-      } else if (stringHolder.includes("0") === true) {
-        result[h] = "Beep!";
-      } else {
-        result[h] = h;
-      }
-    }
-
-
-    $("#output").text(result);
+    $("#output").text(compSpeak(numInt));
 
   });
 });

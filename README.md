@@ -6,7 +6,7 @@
 
 ## _Description_
 
-Webpage designed to take a user input number and return a word or sentence depending on the contents of the number. If the input number has a 0, the output will say "Beep!". If the input number has a 1, the output will say "Boop!". Finally, if the input number is divisible by three the output will say "I'm sorry, Dave. I'm afraid I can't do that.". Each condition listed goes in order of importance. If there is a 0 and a 1 in a number, the output will say "Boop!", because the 1 rule supersedes the 0 rule. In the case of the number 130, the output will be "I'm sorry, Dave. I'm afraid I can't do that.", because the rule for divisible by 3 supersedes the rule for 0 and the rule for 1.
+Webpage designed to take a user input number and return a range of numbers from 0 to that number, and a word or sentence depending on the  number. If the number has a 0, the output will say "Beep!". If the number has a 1, the output will say "Boop!". Finally, if the number is divisible by three the output will say "I'm sorry, Dave. I'm afraid I can't do that.". Each condition listed goes in order of importance. If there is a 0 and a 1 in a number, the output will say "Boop!", because the 1 rule supersedes the 0 rule. In the case of the number 130, the output will be "I'm sorry, Dave. I'm afraid I can't do that.", because the rule for divisible by 3 supersedes the rule for 0 and the rule for 1.
 
 You can also view this project on gh-pages:
 https://eyesicedover.github.io/beep-boop/
