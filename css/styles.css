@@ -1,7 +1,23 @@
+h2, #output {
+  text-align: center;
+}
+
 #output, label {
   font-size: 2em;
 }
 
-h2, #output {
-  text-align: center;
+.jumbotron {
+  background-image: url("http://getwallpapers.com/wallpaper/full/2/9/5/364528.jpg");
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: green;
+  font-family: monospace;
+}
+
+body{
+  background-color: black;
+  font-family: monospace;
+  color: green;
 }

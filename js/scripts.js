@@ -26,8 +26,7 @@ $(document).ready(function() {
     event.preventDefault();
     var userNumber = $("input#userNumber").val();
     var numInt = parseInt(userNumber);
-
+    
     $("#output").text(compSpeak(numInt));
-
   });
 });
