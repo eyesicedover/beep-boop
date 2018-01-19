@@ -1,15 +1,30 @@
-# _Project Name_
+# _Beep Boop_
 
-#### _HTML, CSS, and JavaScript/Jquery Practice for Epicodus, 01.19.2018_
+#### _Website using HTML, CSS/Bootstrap, and JavaScript/Jquery for Epicodus, 01.19.2018_
 
 #### _By Stephanie Faber_
 
 ## _Description_
 
-Webpage designed to take user input in the form of a survey and return to them a suggestion as to what programming track they should take. The site begins with a blurb and a start button. When pressed the start button will disappear and the survey will show up. After inputting your name and answering all the questions, press submit. After submission the survey will disappear and your result will appear on the page. Refresh to reset the survey.
+Webpage designed to take a user input number and return a word or sentence depending on the contents of the number. If the input number has a 0, the output will say "Beep!". If the input number has a 1, the output will say "Boop!". Finally, if the input number is divisible by three the output will say "I'm sorry, Dave. I'm afraid I can't do that.". Each condition listed goes in order of importance. If there is a 0 and a 1 in a number, the output will say "Boop!", because the 1 rule supersedes the 0 rule. In the case of the number 130, the output will be "I'm sorry, Dave. I'm afraid I can't do that.", because the rule for divisible by 3 supersedes the rule for 0 and the rule for 1.
 
 You can also view this project on gh-pages:
-https://eyesicedover.github.io/track-suggester/
+https://eyesicedover.github.io/beep-boop/
+
+##_Specifications_
+
+
+Program replaces 0 with "Beep!"
+* Example input: 0
+* Example output: "Beep!"
+
+Program replaces 1 with "Boop!"
+* Example input: 1
+* Example output: "Boop!"
+
+Program replaces a number divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that."
+* Example input: 133
+* Example output: "I'm sorry, Dave. I'm afraid I can't do that."
 
 ## _Setup/Installation Requirements_
 
