@@ -19,7 +19,7 @@ input[type=number]:focus {
 }
 
 #output, label, p {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .jumbotron {
@@ -39,4 +39,9 @@ input[type=number]:focus {
 
 #output {
   text-align: center;
+  display: none;
+}
+
+#proc1, #proc2 {
+  display: none;
 }

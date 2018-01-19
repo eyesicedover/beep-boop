@@ -24,9 +24,15 @@ function compSpeak(numInt) {
 $(document).ready(function() {
   $("#numberForm").submit(function(event) {
     event.preventDefault();
+    $("#proc1").hide();
+    $("#proc2").hide();
+    $("#output").hide();
     var userNumber = $("input#userNumber").val();
     var numInt = parseInt(userNumber);
 
+    $("#proc1").delay(900).fadeIn(100);
+    $("#proc2").delay(2000).fadeIn(100);
     $("#output").text(compSpeak(numInt));
+    $("#output").delay(3000).fadeIn(100);
   });
 });

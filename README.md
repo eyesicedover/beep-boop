@@ -26,6 +26,10 @@ Program replaces a number divisible by 3 with "I'm sorry, Dave. I'm afraid I can
 * Example input: 133
 * Example output: "I'm sorry, Dave. I'm afraid I can't do that."
 
+Program applies previous logic to a range of numbers determined by the user's input.
+* Example input: 10
+* Example output: BEEP! BOOP! 2 I'm sorry, Dave. I'm afraid I can't do that 4 5 I'm sorry, Dave. I'm afraid I can't do that 7 8 I'm sorry, Dave. I'm afraid I can't do that BOOP!
+
 ## _Setup/Installation Requirements_
 
 * Clone this repository.
