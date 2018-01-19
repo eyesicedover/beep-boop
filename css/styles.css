@@ -1,0 +1,7 @@
+#output, label {
+  font-size: 2em;
+}
+
+h2, #output {
+  text-align: center;
+}
