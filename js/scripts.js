@@ -29,10 +29,10 @@ $(document).ready(function() {
     $("#output").hide();
     var userNumber = $("input#userNumber").val();
     var numInt = parseInt(userNumber);
-
+    
+    $("#output").text(compSpeak(numInt));
     $("#proc1").delay(900).fadeIn(100);
     $("#proc2").delay(2000).fadeIn(100);
-    $("#output").text(compSpeak(numInt));
     $("#output").delay(2800).fadeIn(100);
   });
 });

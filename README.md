@@ -11,7 +11,7 @@ Webpage designed to take a user input number and return a range of numbers from 
 You can also view this project on gh-pages:
 https://eyesicedover.github.io/beep-boop/
 
-##_Specifications_
+## _Specifications_
 
 
 Program replaces 0 with "Beep!"
