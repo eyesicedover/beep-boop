@@ -33,6 +33,6 @@ $(document).ready(function() {
     $("#proc1").delay(900).fadeIn(100);
     $("#proc2").delay(2000).fadeIn(100);
     $("#output").text(compSpeak(numInt));
-    $("#output").delay(3000).fadeIn(100);
+    $("#output").delay(2800).fadeIn(100);
   });
 });
